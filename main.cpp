@@ -29,16 +29,16 @@ void Function(const Base &obj)
 int main(int argc, char *argv[])
 {
     cout << "* Create Object base" << endl;
-    Base base;
+    Base base1;
 
     cout << "* Create Object child" << endl;
-    Child child;
+    Child child1;
 
     cout << "* Call method func() for object base" << endl;
-    Function(base);
+    Function(base1);
 
     cout << "* Call method func() for object child" << endl;
-    Function(child);
+    Function(child1);
 
     return 0;
 }
